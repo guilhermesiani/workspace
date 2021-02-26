@@ -39,6 +39,7 @@ Tips
 - Keep Changelog https://keepachangelog.com
 - Beautiful Illustrations for Frontend https://undraw.co
 - Gogh Terminal Themes (http://mayccoll.github.io/Gogh/)
+- Music for Programmers 🎵 (https://musicforprogramming.net)
 
 Search Engine
 
