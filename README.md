@@ -40,6 +40,8 @@ Tips
 - Beautiful Illustrations for Frontend https://undraw.co
 - Gogh Terminal Themes (http://mayccoll.github.io/Gogh/)
 - Music for Programmers 🎵 (https://musicforprogramming.net)
+- Json PlaceHolder (https://jsonplaceholder.typicode.com/)
+- Slowwly (http://slowwly.robertomurray.co.uk)
 
 Search Engine
 
