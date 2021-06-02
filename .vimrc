@@ -4,25 +4,11 @@ set secure
 set nocompatible " be iMproved, required
 filetype off " required
 
-call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
-Plug 'scrooloose/nerdtree'
-Plug 'kien/ctrlp.vim'
-Plug 'bling/vim-airline'
-Plug 'airblade/vim-gitgutter'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'w0rp/ale'
-Plug 'scrooloose/nerdcommenter'
-Plug 'tpope/vim-surround'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'vim-test/vim-test'
-Plug 'yggdroot/indentline'
-Plug 'neoclide/coc.nvim'
-Plug 'puremourning/vimspector'
-call plug#end()
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
 
-filetype plugin indent on
+set path+=**
+set wildmenu
 
 " show existing tab with 4 spaces width
 set tabstop=4
@@ -39,21 +25,26 @@ set nu rnu
 " Search result highlighting
 set hlsearch
 
+call plug#begin('~/.vim/plugged')
+Plug 'morhetz/gruvbox'
+Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'w0rp/ale'
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-surround'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'vim-test/vim-test'
+Plug 'yggdroot/indentline'
+call plug#end()
+
+filetype plugin indent on
+
 colorscheme gruvbox
 set background=dark    " Setting dark mode
-
-" NERDTree config
-map <C-n> :NERDTreeToggle<CR>
-map <C-o> :NERDTreeToggle %<CR>
-let g:NERDTreeWinSize=60
-let g:NERDTreeMouseMode=3
 
 " swapfiles location
 set backupdir=/tmp//
 set directory=/tmp//
-
-" Consider gitignore files on CTRLP
-let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 set colorcolumn=80
 set backspace=indent,eol,start
@@ -71,9 +62,6 @@ set nolazyredraw
 
 " Force syntax
 syntax on
-
-" CtrlP with tag
-nnoremap <leader>. :CtrlPTag<cr>
 
 " Gutentags config
 let g:gutentags_generate_on_new = 1
@@ -142,26 +130,3 @@ nmap <silent> t<C-g> :TestVisit<CR>
 
 " Indent line config
 let g:indentLine_color_term = 239
-
-" Debugger remaps
-nnoremap <leader>m :MaximizerToggle!<CR>
-nnoremap <leader>dd :call vimspector#Launch()<CR>
-nnoremap <leader>dc :call GotoWindow(g:vimspector_session_windows.code)<CR>
-nnoremap <leader>dt :call GotoWindow(g:vimspector_session_windows.tagpage)<CR>
-nnoremap <leader>dv :call GotoWindow(g:vimspector_session_windows.variables)<CR>
-nnoremap <leader>dw :call GotoWindow(g:vimspector_session_windows.watches)<CR>
-nnoremap <leader>ds :call GotoWindow(g:vimspector_session_windows.stack_trace)<CR>
-nnoremap <leader>do :call GotoWindow(g:vimspector_session_windows.output)<CR>
-nnoremap <leader>de :call vimspector#Reset()<CR>
-
-nnoremap <leader>dtcb :call vimspector#CleanLineBreakpoint()<CR>
-
-nmap <leader>dl <Plug>VimspectorStepInto
-nmap <leader>dj <Plug>VimspectorStepOver
-nmap <leader>dk <Plug>VimspectorStepOut
-nmap <leader>d_ <Plug>VimspectorRestart
-nnoremap <leader>d<space> :call vimspector#Continue()<CR>
-
-nmap <leader>drc <Plug>VimspectorRunToCursor
-nmap <leader>dbp <Plug>VimspectorToggleBreakpoint
-nmap <leader>dcbp <Plug>VimspectorToggleConditionalBreakpoint
