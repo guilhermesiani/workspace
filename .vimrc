@@ -131,8 +131,8 @@ nmap <silent> t<C-g> :TestVisit<CR>
 let g:indentLine_color_term = 239
 
 " Java Autocomplete
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
 if index(['java'], &filetype) != -1
-    autocmd FileType java setlocal omnifunc=javacomplete#Complete
     nmap <F4> <Plug>(JavaComplete-Imports-AddSmart)
     imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
     nmap <F5> <Plug>(JavaComplete-Imports-Add)
