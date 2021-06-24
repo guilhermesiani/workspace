@@ -4,10 +4,7 @@ set secure
 set nocompatible " be iMproved, required
 filetype off " required
 
-set completeopt=longest,menuone
 let g:netrw_banner = 0
-" let g:netrw_liststyle = 3
-let g:netrw_localrmdir='rm -rf'
 
 set path+=**
 set wildmenu
@@ -36,12 +33,9 @@ Plug 'tpope/vim-surround'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'vim-test/vim-test'
 Plug 'yggdroot/indentline'
-Plug 'artur-shaik/vim-javacomplete2'
 call plug#end()
 
 filetype plugin indent on
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
 
 colorscheme gruvbox
 set background=dark    " Setting dark mode
@@ -72,6 +66,11 @@ let g:gutentags_generate_on_new = 1
 let g:gutentags_generate_on_missing = 1
 let g:gutentags_generate_on_write = 1
 let g:gutentags_generate_on_empty_buffer = 0
+let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')
+let g:gutentags_ctags_extra_args = [
+      \ '--tag-relative=yes',
+      \ '--fields=+ailmnS',
+      \ ]
 let g:gutentags_ctags_exclude = [
       \ '*.git', '*.svg', '*.hg',
       \ '*/tests/*',
@@ -129,16 +128,3 @@ nmap <silent> t<C-g> :TestVisit<CR>
 
 " Indent line config
 let g:indentLine_color_term = 239
-
-" Java Autocomplete
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
-if index(['java'], &filetype) != -1
-    nmap <F4> <Plug>(JavaComplete-Imports-AddSmart)
-    imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
-    nmap <F5> <Plug>(JavaComplete-Imports-Add)
-    imap <F5> <Plug>(JavaComplete-Imports-Add)
-    nmap <F6> <Plug>(JavaComplete-Imports-AddMissing)
-    imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
-    nmap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
-    imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
-endif
