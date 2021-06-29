@@ -4,3 +4,6 @@ if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
 fi
 
 export TERM=screen-256color
+
+# FD FZF to exclude non wanted files
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
