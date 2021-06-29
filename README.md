@@ -26,6 +26,7 @@ Install
 - jiracli (https://jiracli.com/)
 - composerize (https://github.com/magicmark/composerize)
 - postman (https://www.getpostman.com/)
+- fzf (https://github.com/junegunn/fzf)
 
 Tips
 
