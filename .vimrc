@@ -30,7 +30,6 @@ set hlsearch
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'bling/vim-airline'
-Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 Plug 'tpope/vim-surround'
 Plug 'ludovicchabant/vim-gutentags'
@@ -170,12 +169,12 @@ set shortmess+=c
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
-"if has("nvim-0.5.0") || has("patch-8.1.1564")
+if has("nvim-0.5.0") || has("patch-8.1.1564")
   " Recently vim can merge signcolumn and number column into one
-"  set signcolumn=number
-"else
-"  set signcolumn=yes
-"endif
+  set signcolumn=number
+else
+  set signcolumn=yes
+endif
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
@@ -312,11 +311,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
-" Multi cursor next word
-nmap <silent> <C-d> <Plug>(coc-cursors-word)*
-xmap <silent> <C-d> y/\V<C-r>=escape(@",'/\')<CR><CR>gN<Plug>(coc-cursors-range)gn
-hi CocCursorRange guibg=#b16286 guifg=#ebdbb2
 
 " NerdTree
 nnoremap <leader>n :NERDTreeFocus<CR>
