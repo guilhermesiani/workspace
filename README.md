@@ -28,6 +28,7 @@ Install
 - postman (https://www.getpostman.com/)
 - fzf (https://github.com/junegunn/fzf)
 - fd (https://github.com/sharkdp/fd)
+- PlantUML (https://plantuml.com)
 
 Tips
 
@@ -38,12 +39,13 @@ Tips
 - Pure Bash Bible (https://github.com/dylanaraps/pure-bash-bible)
 - Vim Autocomplete (https://github.com/neoclide/coc.nvim)
 - Semantic Versioning (https://semver.org)
-- Keep Changelog https://keepachangelog.com
-- Beautiful Illustrations for Frontend https://undraw.co
+- Keep Changelog (https://keepachangelog.com)
+- Beautiful Illustrations for Frontend (https://undraw.co)
 - Gogh Terminal Themes (http://mayccoll.github.io/Gogh/)
 - Music for Programmers 🎵 (https://musicforprogramming.net)
 - Json PlaceHolder (https://jsonplaceholder.typicode.com/)
 - Slowwly (http://slowwly.robertomurray.co.uk)
+- 12factor (https://12factor.net)
 
 Search Engine
 
