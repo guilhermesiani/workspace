@@ -51,6 +51,7 @@ Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 - C4 Model (https://c4model.com)
 - 12 factor (https://12factor.net)
 - PlantUML (https://plantuml.com)
+- Archimate (https://www.archimatetool.com)
 - Risk Matrix Templates (https://www.smartsheet.com/all-risk-assessment-matrix-templates-you-need)
 - Decision Matrix Templates (https://www.smartsheet.com/decision-matrix-templates)
 
