@@ -28,7 +28,6 @@ Install
 - postman (https://www.getpostman.com/)
 - fzf (https://github.com/junegunn/fzf)
 - fd (https://github.com/sharkdp/fd)
-- PlantUML (https://plantuml.com)
 
 Tips
 
@@ -45,12 +44,15 @@ Tips
 - Music for Programmers 🎵 (https://musicforprogramming.net)
 - Json PlaceHolder (https://jsonplaceholder.typicode.com/)
 - Slowwly (http://slowwly.robertomurray.co.uk)
-- 12factor (https://12factor.net)
 
-Search Engine
+Architecture Tools/Tips
 
-- DuckDuckGo (https://duckduckgo.com/)
+- UML (https://en.wikipedia.org/wiki/Unified_Modeling_Language)
+- C4 Model (https://c4model.com)
+- 12 factor (https://12factor.net)
+- PlantUML (https://plantuml.com)
 
-OS
+Presentation
 
-- Ubuntu (https://ubuntu.com)
+- Carbon Now (carbon.now.sh)
+- Code IMG (codeimg.io)
