@@ -45,7 +45,7 @@ Tips
 - Json PlaceHolder (https://jsonplaceholder.typicode.com/)
 - Slowwly (http://slowwly.robertomurray.co.uk)
 
-Architecture Tools/Tips
+Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 
 - UML (https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 - C4 Model (https://c4model.com)
