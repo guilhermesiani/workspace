@@ -55,6 +55,7 @@ Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 - Archimate (https://www.archimatetool.com)
 - Risk Matrix Templates (https://www.smartsheet.com/all-risk-assessment-matrix-templates-you-need)
 - Decision Matrix Templates (https://www.smartsheet.com/decision-matrix-templates)
+- Architectural Decision Record (https://adr.github.io/)
 
 Presentation
 
