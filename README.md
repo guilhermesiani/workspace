@@ -52,6 +52,7 @@ Architecture Tools/Tips
 - 12 factor (https://12factor.net)
 - PlantUML (https://plantuml.com)
 - Risk Matrix Templates (https://www.smartsheet.com/all-risk-assessment-matrix-templates-you-need)
+- Decision Matrix Templates (https://www.smartsheet.com/decision-matrix-templates)
 
 Presentation
 
