@@ -54,5 +54,5 @@ Architecture Tools/Tips
 
 Presentation
 
-- Carbon Now (carbon.now.sh)
-- Code IMG (codeimg.io)
+- Carbon Now (https://carbon.now.sh)
+- Code IMG (https://codeimg.io)
