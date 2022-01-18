@@ -324,9 +324,3 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 " Fuzzy Finder
 nmap <C-P> :FZF<CR>
-
-augroup myvimrc
-    autocmd!
-    autocmd QuickFixCmdPost [^l]* cwindow
-    autocmd QuickFixCmdPost l*    lwindow
-augroup END
