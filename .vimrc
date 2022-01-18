@@ -1,3 +1,5 @@
+set re=2 " mac os only
+
 set exrc
 set secure
 
