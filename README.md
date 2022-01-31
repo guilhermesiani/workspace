@@ -56,6 +56,9 @@ Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 - Risk Matrix Templates (https://www.smartsheet.com/all-risk-assessment-matrix-templates-you-need)
 - Decision Matrix Templates (https://www.smartsheet.com/decision-matrix-templates)
 - Architectural Decision Record (https://adr.github.io/)
+- AsyncAPI (https://www.asyncapi.com/docs/specifications/v2.2.0)
+- OpenAPI (https://www.openapis.org/)
+- API Blueprint (https://apiblueprint.org/)
 
 Presentation
 
