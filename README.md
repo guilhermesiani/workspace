@@ -44,6 +44,7 @@ Tips
 - Music for Programmers 🎵 (https://musicforprogramming.net)
 - Json PlaceHolder (https://jsonplaceholder.typicode.com/)
 - Slowwly (http://slowwly.robertomurray.co.uk)
+- Pomofocus (https://pomofocus.io/)
 
 Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 
