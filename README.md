@@ -53,6 +53,7 @@ Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 - Risk Storming (https://riskstorming.com/)
 - 12 factor (https://12factor.net)
 - PlantUML (https://plantuml.com)
+- Mermaid (https://github.com/mermaid-js/mermaid)
 - Archimate (https://www.archimatetool.com)
 - Risk Matrix Templates (https://www.smartsheet.com/all-risk-assessment-matrix-templates-you-need)
 - Decision Matrix Templates (https://www.smartsheet.com/decision-matrix-templates)
@@ -60,6 +61,7 @@ Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 - AsyncAPI (https://www.asyncapi.com/docs/specifications/v2.2.0)
 - OpenAPI (https://www.openapis.org/)
 - API Blueprint (https://apiblueprint.org/)
+- Anthos Hybrid Cloud Solution (https://cloud.google.com/anthos)
 
 Presentation
 
