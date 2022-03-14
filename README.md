@@ -63,6 +63,7 @@ Architecture Tools/Tips (https://en.wikipedia.org/wiki/Software_architecture)
 - API Blueprint (https://apiblueprint.org/)
 - Anthos Hybrid Cloud Solution (https://cloud.google.com/anthos)
 - Cloud Management Platforms CMP (https://www.bmc.com/it-solutions/bmc-helix.html)
+- AWS Reference Architectures (https://aws.amazon.com/solutions/reference-architectures/)
 
 Presentation
 
