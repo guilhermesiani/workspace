@@ -3,6 +3,7 @@
 Install
 
 - vim (https://www.vim.org)
+- SpaceVim (https://spacevim.org/)
 - vim-plug (https://github.com/junegunn/vim-plug)
 - tree (http://mama.indstate.edu/users/ice/tree/)
 - git (https://git-scm.com)
